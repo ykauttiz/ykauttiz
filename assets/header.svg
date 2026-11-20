@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="236" viewBox="0 0 960 236" role="img" aria-labelledby="title">
-<title id="title">Kauê — Discord, música e web. Uma onda sonora acompanha o nome.</title>
+<title id="title">Kauê — Música, código e comunidades. Uma onda sonora acompanha o nome.</title>
 <style>
-.bar{transform-box:fill-box;transform-origin:center;animation:beat 2.8s ease-in-out 1}
+.bar{transform-box:fill-box;transform-origin:center;animation:beat 2.1s ease-in-out 1}
 @keyframes beat{0%,100%{transform:scaleY(1)}40%{transform:scaleY(.36)}70%{transform:scaleY(.82)}}
 @media(prefers-reduced-motion:reduce){.bar{animation:none}}
 </style>
 <rect width="960" height="236" rx="16" fill="#0b203a"/>
 <g font-family="system-ui, sans-serif"><text x="42" y="52" font-size="18" letter-spacing="4" fill="#ffad69">YKAUTTIZ</text>
 <text x="36" y="152" font-size="104" font-weight="700" fill="#fff1da">Kauê</text>
-<text x="43" y="198" font-size="22" fill="#cfdfec">Discord, música e web</text></g>
+<text x="43" y="198" font-size="21" fill="#cfdfec">Música, código e comunidades</text></g>
 <g fill="#ffad69"><rect class="bar" x="531" y="112" width="9" height="12" rx="4" style="animation-delay:0s"/>
 <rect class="bar" x="555" y="107" width="9" height="22" rx="4" style="animation-delay:0.055s"/>
 <rect class="bar" x="579" y="101" width="9" height="34" rx="4" style="animation-delay:0.11s"/>

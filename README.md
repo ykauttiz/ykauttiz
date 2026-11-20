@@ -1,22 +1,18 @@
-![Kauê · Discord, música e web](assets/header.svg)
+![Kauê · Ferramentas para música e comunidades](assets/header.svg)
 
-Sou o Kauê. Gosto de construir ferramentas pequenas que resolvem coisas que eu mesmo encontro usando o Discord: acompanhar um verso no momento certo, lembrar o prazo de uma missão ou organizar um atendimento. Aprendo programação colocando essas ideias para funcionar.
+Sou o Kauê. Gosto da parte da programação em que uma ideia vira algo que dá para abrir e usar. Tenho trabalhado com bots de atendimento para Discord, automações e cardápios digitais. O projeto que estou desenvolvendo em público agora nasceu de uma pergunta: como voltar direto ao verso que eu quero ensaiar?
 
-## Dois projetos para experimentar
+### Contracanto
 
-**[Lyrics Sync ♪](https://github.com/ykauttiz/discord-lyrics-sync)** · Python  
-Um arquivo de texto guarda a letra e o instante de cada verso. O player lê esses tempos e mostra a linha atual no terminal. Baixe o projeto e rode `python lyrics.py demo.lrc` para ver a letra original de 12 segundos. [Abrir a letra de exemplo](https://github.com/ykauttiz/discord-lyrics-sync/blob/main/demo.lrc)
+Escolha um verso e a música volta até ele. O Contracanto transforma uma letra marcada em LRC em uma sala de ensaio que roda no navegador. A demo tem uma letra em português e doze segundos de acompanhamento instrumental.
 
-**[Diário de missões](https://github.com/ykauttiz/discord-missions)** · JavaScript, HTML e CSS  
-Um diário de quests que guarda os prazos no próprio navegador. Abra o `index.html` do projeto, cadastre duas missões com datas diferentes e marque uma como resgatada para ver a lista se reorganizar. [Como usar](https://github.com/ykauttiz/discord-missions#abrir)
+**[Tocar a demo](https://ykauttiz.github.io/discord-lyrics-sync/)** · [Ver o código](https://github.com/ykauttiz/discord-lyrics-sync) · [Histórico de mudanças](https://github.com/ykauttiz/discord-lyrics-sync/blob/main/CHANGELOG.md)
 
-## O que estou explorando
+**Por dentro do projeto**  
+O Python organiza as marcações da letra e exporta legendas WebVTT. No navegador, o JavaScript acompanha a posição real do áudio para atualizar o verso depois de uma pausa ou de um salto na faixa. A interface usa HTML e CSS. Os testes cobrem desde refrões com timestamps repetidos até letras que contêm caracteres de marcação.
 
-Bots de atendimento para comunidades, automações e cardápios digitais. No código publicado aqui, estou praticando testes de sincronização em Python e persistência de dados no navegador com JavaScript.
+<details><summary>English</summary>
 
-<details>
-<summary>English</summary>
-
-I’m Kauê. I build small tools for Discord communities and music. Try the bundled 12-second lyric demo in Lyrics Sync, or use Quest Journal to track deadlines locally. Both repositories include setup instructions in English.
+I’m Kauê. I build tools for music and online communities. My current project, Contracanto, turns a timestamped lyric sheet into an offline rehearsal room. Pick a line to seek, slow down the recording, or export WebVTT captions. [Try the instrumental demo](https://ykauttiz.github.io/discord-lyrics-sync/).
 
 </details>
