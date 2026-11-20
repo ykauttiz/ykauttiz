@@ -1,18 +1,20 @@
-![Kauê · Ferramentas para música e comunidades](assets/header.svg)
+![Kauê · Código e projetos](assets/header.svg)
 
-Sou o Kauê. Gosto da parte da programação em que uma ideia vira algo que dá para abrir e usar. Tenho trabalhado com bots de atendimento para Discord, automações e cardápios digitais. O projeto que estou desenvolvendo em público agora nasceu de uma pergunta: como voltar direto ao verso que eu quero ensaiar?
+Sou o Kauê. Gosto de construir ferramentas que dá para entender experimentando: conferir um repasse que veio vinte centavos abaixo do esperado, voltar direto ao verso de uma música ou descobrir por que um cargo passou a ver um canal privado.
 
-### Contracanto
+### Abra um projeto
 
-Escolha um verso e a música volta até ele. O Contracanto transforma uma letra marcada em LRC em uma sala de ensaio que roda no navegador. A demo tem uma letra em português e doze segundos de acompanhamento instrumental.
+| Ferramenta | O que experimentar | Como funciona |
+| --- | --- | --- |
+| [Contratempo](https://ykauttiz.github.io/contratempo/) | Clique no verso de 0:06 e diminua a velocidade. | Python lê marcas LRC e gera HTML e WebVTT. O navegador acompanha o relógio do áudio. [Código](https://github.com/ykauttiz/contratempo) |
+| [Fecha a Conta](https://ykauttiz.github.io/fecha-a-conta/) | Abra o exemplo e procure o pedido 102. | Comparação de dois CSVs por ID, com valores em centavos e revisão de duplicatas. [Código](https://github.com/ykauttiz/fecha-a-conta) |
+| [Últimos 50 Metros](https://ykauttiz.github.io/ultimos-50-metros/) | Registre uma barreira na calçada e deixe a travessia por verificar. | Histórico local de vistorias, fila por prioridade e exportação JSON. [Código](https://github.com/ykauttiz/ultimos-50-metros) |
+| [Porta Fechada](https://ykauttiz.github.io/porta-fechada/) | Veja qual mudança permitiu que um visitante lesse tickets. | Testes de permissões de canais de texto em duas configurações, sem conectar um bot. [Código](https://github.com/ykauttiz/porta-fechada) |
 
-**[Tocar a demo](https://ykauttiz.github.io/discord-lyrics-sync/)** · [Ver o código](https://github.com/ykauttiz/discord-lyrics-sync) · [Histórico de mudanças](https://github.com/ykauttiz/discord-lyrics-sync/blob/main/CHANGELOG.md)
-
-**Por dentro do projeto**  
-O Python organiza as marcações da letra e exporta legendas WebVTT. No navegador, o JavaScript acompanha a posição real do áudio para atualizar o verso depois de uma pausa ou de um salto na faixa. A interface usa HTML e CSS. Os testes cobrem desde refrões com timestamps repetidos até letras que contêm caracteres de marcação.
+Trabalho com Python, JavaScript, HTML e CSS nesses projetos. Também me interesso por atendimento em comunidades de Discord, cardápios digitais e automação. Cada repositório inclui exemplos, instruções de uso e testes que você pode rodar localmente.
 
 <details><summary>English</summary>
 
-I’m Kauê. I build tools for music and online communities. My current project, Contracanto, turns a timestamped lyric sheet into an offline rehearsal room. Pick a line to seek, slow down the recording, or export WebVTT captions. [Try the instrumental demo](https://ykauttiz.github.io/discord-lyrics-sync/).
+I build small tools for musicians, delivery operators, field surveys and Discord communities. Each project above has a browser demo and a source repository with reproducible tests.
 
 </details>
