@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="236" viewBox="0 0 960 236" role="img" aria-labelledby="title">
+<title id="title">Kauê — Discord, música e web. Uma onda sonora acompanha o nome.</title>
+<style>
+.bar{transform-box:fill-box;transform-origin:center;animation:beat 2.8s ease-in-out 1}
+@keyframes beat{0%,100%{transform:scaleY(1)}40%{transform:scaleY(.36)}70%{transform:scaleY(.82)}}
+@media(prefers-reduced-motion:reduce){.bar{animation:none}}
+</style>
+<rect width="960" height="236" rx="16" fill="#0b203a"/>
+<g font-family="system-ui, sans-serif"><text x="42" y="52" font-size="18" letter-spacing="4" fill="#ffad69">YKAUTTIZ</text>
+<text x="36" y="152" font-size="104" font-weight="700" fill="#fff1da">Kauê</text>
+<text x="43" y="198" font-size="22" fill="#cfdfec">Discord, música e web</text></g>
+<g fill="#ffad69"><rect class="bar" x="531" y="112" width="9" height="12" rx="4" style="animation-delay:0s"/>
+<rect class="bar" x="555" y="107" width="9" height="22" rx="4" style="animation-delay:0.055s"/>
+<rect class="bar" x="579" y="101" width="9" height="34" rx="4" style="animation-delay:0.11s"/>
+<rect class="bar" x="603" y="92" width="9" height="52" rx="4" style="animation-delay:0.165s"/>
+<rect class="bar" x="627" y="76" width="9" height="84" rx="4" style="animation-delay:0.22s"/>
+<rect class="bar" x="651" y="62" width="9" height="112" rx="4" style="animation-delay:0.275s"/>
+<rect class="bar" x="675" y="81" width="9" height="74" rx="4" style="animation-delay:0.33s"/>
+<rect class="bar" x="699" y="94" width="9" height="48" rx="4" style="animation-delay:0.385s"/>
+<rect class="bar" x="723" y="87" width="9" height="62" rx="4" style="animation-delay:0.44s"/>
+<rect class="bar" x="747" y="67" width="9" height="102" rx="4" style="animation-delay:0.495s"/>
+<rect class="bar" x="771" y="49" width="9" height="138" rx="4" style="animation-delay:0.55s"/>
+<rect class="bar" x="795" y="71" width="9" height="94" rx="4" style="animation-delay:0.605s"/>
+<rect class="bar" x="819" y="90" width="9" height="56" rx="4" style="animation-delay:0.66s"/>
+<rect class="bar" x="843" y="99" width="9" height="38" rx="4" style="animation-delay:0.715s"/>
+<rect class="bar" x="867" y="106" width="9" height="24" rx="4" style="animation-delay:0.77s"/>
+<rect class="bar" x="891" y="111" width="9" height="14" rx="4" style="animation-delay:0.825s"/></g></svg>
