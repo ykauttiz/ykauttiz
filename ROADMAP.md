@@ -6,8 +6,8 @@ Revisão de 21 de novembro de 2026. Os links de verificação apontam para a exe
 |---|---|---|
 | Contratempo | [Sala de ensaio](https://ykauttiz.github.io/contratempo/) | [Execução](https://github.com/ykauttiz/contratempo/actions/runs/44893000647) |
 | Fecha a Conta | [Conferência de repasses](https://ykauttiz.github.io/fecha-a-conta/) | [Execução](https://github.com/ykauttiz/fecha-a-conta/actions/runs/44892998646) |
-| Porta Fechada | [Simulador de canais de texto](https://ykauttiz.github.io/porta-fechada/) | [Execução](https://github.com/ykauttiz/porta-fechada/actions/runs/44892992678) |
-| Últimos 50 Metros | [Caderno de campo](https://ykauttiz.github.io/ultimos-50-metros/) | [Execução](https://github.com/ykauttiz/ultimos-50-metros/actions/runs/44893070062) |
+| Porta Fechada | [Simulador de canais de texto](https://ykauttiz.github.io/porta-fechada/) | [Execução](https://github.com/ykauttiz/porta-fechada/actions/runs/44893300533) |
+| Últimos 50 Metros | [Caderno de campo](https://ykauttiz.github.io/ultimos-50-metros/) | [Execução](https://github.com/ykauttiz/ultimos-50-metros/actions/runs/44893232401) |
 
 ## Contratempo
 
@@ -25,13 +25,13 @@ Para validar um importador nativo de iFood ou 99Food, ainda faltam extratos anon
 
 O motor compara duas configurações de canais de texto, testa leitura e envio para os membros e cargos declarados e identifica a etapa que alterou a decisão. A interface e a CLI trabalham com exemplos ou JSON local. O painel filtra os quatro resultados e os relatórios exportam a comparação completa. O CI registra a cobertura da suíte.
 
-O plano prevê uma matriz por membro e canal, explicação de todas as etapas, histórico persistente e suporte específico a threads. Uma integração de leitura com um servidor real depende de uma aplicação autorizada e de um servidor de teste. O simulador local já pode ser usado isoladamente.
+A matriz por membro compara leitura e envio por canal e conjunto de cargos. O plano ainda prevê explicação de todas as etapas, histórico persistente e suporte específico a threads. Uma integração de leitura com um servidor real depende de uma aplicação autorizada e de um servidor de teste. O simulador local já pode ser usado isoladamente.
 
 ## Últimos 50 Metros
 
 O caderno diferencia vistoria, barreira, correção e verificação em campo. Aceita coordenadas manuais ou posição solicitada pelo usuário, mostra a precisão informada e permite revisar antes de salvar. Há fila por prioridade, comparação de visitas, histórico local, restauração de backup, uso offline preparado, impressão e exportação GeoJSON.
 
-Permanecem no roteiro o mapa dentro do aplicativo, fotos com tratamento de metadados, CSV de vistorias e instalação como PWA. Sincronização entre pessoas e agregações por região dependem de demanda de campo e de regras de privacidade. A localização foi testada com coordenadas simuladas. Precisão de GPS em campo depende do aparelho e do local.
+A seleção também pode ser exportada em CSV. O aplicativo inclui manifesto, ícones e cache offline para instalação em navegadores compatíveis. Permanecem no roteiro o mapa dentro do aplicativo e fotos com tratamento de metadados. Sincronização entre pessoas e agregações por região dependem de demanda de campo e de regras de privacidade. A localização foi testada com coordenadas simuladas. Precisão de GPS em campo depende do aparelho e do local.
 
 ## Perfil e manutenção
 
