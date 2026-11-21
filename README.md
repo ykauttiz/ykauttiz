@@ -1,20 +1,32 @@
-![Kauê · Código e projetos](assets/header.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header.svg">
+  <img src="assets/header-light.svg" alt="Kauê · ykauttiz" width="100%">
+</picture>
 
-Sou o Kauê. Gosto de construir ferramentas que dá para entender experimentando: conferir um repasse que veio vinte centavos abaixo do esperado, voltar direto ao verso de uma música ou descobrir por que um cargo passou a ver um canal privado.
+Sou o Kauê, desenvolvedor brasileiro em formação. Faço ferramentas em **Python e JavaScript** para resolver problemas que conheço de perto. Duas perguntas deram origem aos projetos abaixo: *o repasse do delivery bateu com os pedidos?* e *como voltar ao mesmo verso até acertar o tempo?*
 
-### Abra um projeto
+### Fecha a Conta
 
-| Ferramenta | O que experimentar | Como funciona |
-| --- | --- | --- |
-| [Contratempo](https://ykauttiz.github.io/contratempo/) | Clique no verso de 0:06 e diminua a velocidade. | Python lê marcas LRC e gera HTML, WebVTT e SRT. O navegador acompanha o relógio do áudio. [Código](https://github.com/ykauttiz/contratempo) |
-| [Fecha a Conta](https://ykauttiz.github.io/fecha-a-conta/) | Abra o exemplo e digite 102 na busca. | Comparação de dois CSVs por ID, com totais separados de faltas e excedentes. [Código](https://github.com/ykauttiz/fecha-a-conta) |
-| [Últimos 50 Metros](https://ykauttiz.github.io/ultimos-50-metros/) | Veja as condições da calçada, da travessia e do embarque no mesmo registro. | Histórico local de vistorias, fila por prioridade e restauração de backups JSON. [Código](https://github.com/ykauttiz/ultimos-50-metros) |
-| [Porta Fechada](https://ykauttiz.github.io/porta-fechada/) | Descubra qual etapa permitiu que um visitante lesse tickets. | Testes de permissões de canais de texto em duas configurações, no navegador ou em um pipeline. [Código](https://github.com/ykauttiz/porta-fechada) |
+No exemplo fictício, dois depósitos de **R$ 60,00 e R$ 39,80** fecham o lote L01. O pedido 0019 ficou **R$ 1,50 abaixo do previsto**. Abra o pedido para conferir de onde saiu a diferença, até a linha do CSV. O cálculo usa centavos inteiros e os extratos ficam no dispositivo.
 
-Trabalho com Python, JavaScript, HTML e CSS nesses projetos. Também me interesso por atendimento em comunidades de Discord, cardápios digitais e automação. Cada repositório inclui exemplos, instruções de uso e testes que você pode rodar localmente.
+[Conferir o exemplo](https://ykauttiz.github.io/fecha-a-conta/) · [Ver o cálculo e o código](https://github.com/ykauttiz/fecha-a-conta) · [Testes](https://github.com/ykauttiz/fecha-a-conta/actions/workflows/conferencia.yml)
 
-<details><summary>English</summary>
+### Contratempo
 
-I build small tools for musicians, delivery operators, field surveys and Discord communities. Each project above has a browser demo and a source repository with reproducible tests.
+Uma sala de ensaio para áudio e letras sincronizadas. Na faixa **Depois da chuva**, marque A no verso de 0:03 e B no de 0:06. Toque a 0,75× para ensaiar a passagem. O editor permite corrigir o tempo de cada verso e levar a letra para um vídeo em SRT ou WebVTT.
+
+[Entrar na sala de ensaio](https://ykauttiz.github.io/contratempo/) · [Ver o código](https://github.com/ykauttiz/contratempo) · [Testes](https://github.com/ykauttiz/contratempo/actions/workflows/contratempo-tests.yml)
+
+### Outros projetos
+
+- **Porta Fechada** · Compare duas configurações de canais de texto do Discord e veja qual regra mudou o acesso de um cargo. [Simulador](https://ykauttiz.github.io/porta-fechada/) · [Código](https://github.com/ykauttiz/porta-fechada)
+- **Últimos 50 Metros** · Registre as condições da calçada, da travessia e do embarque de um ponto de ônibus. Consulte o histórico na próxima vistoria. [Abrir a ferramenta](https://ykauttiz.github.io/ultimos-50-metros/) · [Código](https://github.com/ykauttiz/ultimos-50-metros)
+
+Encontrou um caso que a ferramenta trata errado? Abra uma issue no projeto e inclua o resultado esperado e um exemplo fictício que reproduza o problema.
+
+<details>
+<summary>English</summary>
+
+I’m Kauê, a Brazilian developer learning by building tools in Python and JavaScript. **Fecha a Conta** reconciles delivery orders and payouts from local CSV files. **Contratempo** lets musicians loop a passage, edit timed lyrics and export subtitles. Both browser demos include an example you can try immediately. The source and automated checks are linked above.
 
 </details>
