@@ -4,10 +4,10 @@ Revisão de 21 de novembro de 2026. Os links de verificação apontam para a exe
 
 | Projeto | Experimente | Testes e capturas desta revisão |
 |---|---|---|
-| Contratempo | [Sala de ensaio](https://ykauttiz.github.io/contratempo/) | [Execução](https://github.com/ykauttiz/contratempo/actions/runs/44909223120) |
-| Fecha a Conta | [Conferência de repasses](https://ykauttiz.github.io/fecha-a-conta/) | [Execução](https://github.com/ykauttiz/fecha-a-conta/actions/runs/44909117294) |
-| Porta Fechada | [Simulador de canais de texto](https://ykauttiz.github.io/porta-fechada/) | [Execução](https://github.com/ykauttiz/porta-fechada/actions/runs/44909113823) |
-| Últimos 50 Metros | [Caderno de campo](https://ykauttiz.github.io/ultimos-50-metros/) | [Execução](https://github.com/ykauttiz/ultimos-50-metros/actions/runs/44909115695) |
+| Contratempo | [Sala de ensaio](https://ykauttiz.github.io/contratempo/) | [Execução](https://github.com/ykauttiz/contratempo/actions/runs/44909455101) |
+| Fecha a Conta | [Conferência de repasses](https://ykauttiz.github.io/fecha-a-conta/) | [Execução](https://github.com/ykauttiz/fecha-a-conta/actions/runs/44910123321) |
+| Porta Fechada | [Simulador de canais de texto](https://ykauttiz.github.io/porta-fechada/) | [Execução](https://github.com/ykauttiz/porta-fechada/actions/runs/44910131825) |
+| Últimos 50 Metros | [Caderno de campo](https://ykauttiz.github.io/ultimos-50-metros/) | [Execução](https://github.com/ykauttiz/ultimos-50-metros/actions/runs/44910145718) |
 
 ## Contratempo
 
@@ -23,6 +23,8 @@ O fechamento mantém a origem dos lançamentos, agrupa pedidos e lotes e calcula
 
 O resumo para impressão segue os filtros da tela. Use-o para guardar o fechamento de uma loja ou plataforma e conferir os grupos incluídos.
 
+O CSV de evidências neutraliza prefixos de fórmula ASCII, caracteres de controle e variantes Unicode conhecidas antes de chegar à planilha.
+
 Para validar um importador nativo de iFood ou 99Food, ainda faltam extratos anonimizados, a versão do layout e um resultado esperado para comparação. A integração direta com a API depende de acesso oficial. A taxa configurável atual cobre a comissão percentual documentada. Contratos com outras fórmulas precisam de casos próprios.
 
 ## Porta Fechada
@@ -31,11 +33,15 @@ O motor compara duas configurações de canais de texto, testa leitura e envio p
 
 A matriz por membro compara leitura e envio por canal e conjunto de cargos. O histórico local guarda comparações nomeadas para reabrir ou remover depois. Na tabela, cada etapa decisiva pode ser expandida para conferir o resultado intermediário de cada sobrescrita aplicável. O relatório JSON acompanha o mesmo percurso. O formato 2 permite simular threads públicas e privadas, permissões do canal pai, convites, bloqueio e arquivamento. Uma integração de leitura com um servidor real depende de uma aplicação autorizada e de um servidor de teste. O simulador local já pode ser usado isoladamente.
 
+O CSV de auditoria aplica a mesma neutralização de fórmulas a nomes de regras, canais, membros e cargos fornecidos pelo usuário.
+
 ## Últimos 50 Metros
 
 O caderno diferencia vistoria, barreira, correção e verificação em campo. Aceita coordenadas manuais ou posição solicitada pelo usuário, mostra a precisão informada e permite revisar antes de salvar. Há fila por prioridade, comparação de visitas, histórico local, restauração de backup, uso offline preparado, impressão e exportação GeoJSON.
 
 A seleção também pode ser exportada em CSV. O aplicativo inclui manifesto, ícones e cache offline para instalação em navegadores compatíveis. O mapa esquemático mostra as posições relativas sem baixar mapas de terceiros. Cada ponto aceita seleção pelo teclado. Fotos adicionadas pelo formulário são reduzidas e recodificadas no aparelho e podem ser recuperadas pelo backup JSON. CSV e GeoJSON contêm apenas os dados da vistoria. Sincronização entre pessoas e agregações por região dependem de demanda de campo e de regras de privacidade. A localização foi testada com coordenadas simuladas. Precisão de GPS em campo depende do aparelho e do local.
+
+Identificadores de pontos também são neutralizados no CSV quando começam com um prefixo que uma planilha pode interpretar como fórmula.
 
 ## Perfil e manutenção
 
