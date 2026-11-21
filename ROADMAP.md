@@ -4,10 +4,10 @@ Revisão de 21 de novembro de 2026. Os links de verificação apontam para a exe
 
 | Projeto | Experimente | Testes e capturas desta revisão |
 |---|---|---|
-| Contratempo | [Sala de ensaio](https://ykauttiz.github.io/contratempo/) | [Execução](https://github.com/ykauttiz/contratempo/actions/runs/44937617422) |
-| Fecha a Conta | [Conferência de repasses](https://ykauttiz.github.io/fecha-a-conta/) | [Execução](https://github.com/ykauttiz/fecha-a-conta/actions/runs/44937614612) |
-| Porta Fechada | [Simulador de canais de texto](https://ykauttiz.github.io/porta-fechada/) | [Execução](https://github.com/ykauttiz/porta-fechada/actions/runs/44937612699) |
-| Últimos 50 Metros | [Caderno de campo](https://ykauttiz.github.io/ultimos-50-metros/) | [Execução](https://github.com/ykauttiz/ultimos-50-metros/actions/runs/44910145718) |
+| Contratempo | [Sala de ensaio](https://ykauttiz.github.io/contratempo/) | [Execução](https://github.com/ykauttiz/contratempo/actions/runs/44937701148) |
+| Fecha a Conta | [Conferência de repasses](https://ykauttiz.github.io/fecha-a-conta/) | [Execução](https://github.com/ykauttiz/fecha-a-conta/actions/runs/44937699992) |
+| Porta Fechada | [Simulador de canais de texto](https://ykauttiz.github.io/porta-fechada/) | [Execução](https://github.com/ykauttiz/porta-fechada/actions/runs/44937704470) |
+| Últimos 50 Metros | [Caderno de campo](https://ykauttiz.github.io/ultimos-50-metros/) | [Execução](https://github.com/ykauttiz/ultimos-50-metros/actions/runs/44937932510) |
 
 ## Contratempo
 
@@ -48,16 +48,16 @@ Identificadores de pontos também são neutralizados no CSV quando começam com 
 [Portfólio interativo](https://ykauttiz.github.io/contratempo/portfolio/). Nas revisões visuais, preserve a identidade de cada ferramenta, os exemplos reproduzíveis, a leitura em telas estreitas e a preferência de movimento reduzido. Compare o tema claro e o escuro com o mesmo conteúdo. Use capturas do produto para mostrar uma tarefa real.
 
 
-O perfil apresenta os quatro projetos, demonstrações, código e banner com variantes clara e escura. A manutenção semanal revisa falhas, testes, documentação, exemplos e demanda pública. Revisões futuras devem registrar a evidência para qualquer novo recurso, publicação ou integração. Os quatro projetos estão fixados no perfil. A edição v2026.11.21.1 está publicada em cada repositório. Feedback de usuários e desempenho em celulares físicos precisam de observações reais.
+O perfil apresenta os quatro projetos, demonstrações, código e banner com variantes clara e escura. A manutenção semanal revisa falhas, testes, documentação, exemplos e demanda pública. Revisões futuras devem registrar a evidência para qualquer novo recurso, publicação ou integração. Os quatro projetos estão fixados no perfil. A edição v2026.11.21.2 está publicada em cada repositório. Feedback de usuários e desempenho em celulares físicos precisam de observações reais.
 
 ## Como experimentar e avaliar a edição de novembro
 
 | Projeto | Experiência curta | Versão publicada |
 |---|---|---|
-| Contratempo | Marque um trecho da faixa de exemplo e ouça a mudança de velocidade após duas voltas. | [Notas da versão](https://github.com/ykauttiz/contratempo/releases/tag/v2026.11.21.1) |
-| Fecha a Conta | Isole o pedido 0019 da demonstração e confira a diferença no resumo impresso. | [Notas da versão](https://github.com/ykauttiz/fecha-a-conta/releases/tag/v2026.11.21.1) |
-| Porta Fechada | Compare os exemplos de canal, salve o resultado e reabra a comparação pelo nome. | [Notas da versão](https://github.com/ykauttiz/porta-fechada/releases/tag/v2026.11.21.1) |
-| Últimos 50 Metros | Cadastre dois pontos fictícios com coordenadas distintas e selecione cada vistoria no mapa. | [Notas da versão](https://github.com/ykauttiz/ultimos-50-metros/releases/tag/v2026.11.21.1) |
+| Contratempo | Marque um trecho da faixa de exemplo e ouça a mudança de velocidade após duas voltas. | [Notas da versão](https://github.com/ykauttiz/contratempo/releases/tag/v2026.11.21.2) |
+| Fecha a Conta | Isole o pedido 0019 da demonstração e confira a diferença no resumo impresso. | [Notas da versão](https://github.com/ykauttiz/fecha-a-conta/releases/tag/v2026.11.21.2) |
+| Porta Fechada | Compare os exemplos de canal, salve o resultado e reabra a comparação pelo nome. | [Notas da versão](https://github.com/ykauttiz/porta-fechada/releases/tag/v2026.11.21.2) |
+| Últimos 50 Metros | Cadastre dois pontos fictícios com coordenadas distintas e selecione cada vistoria no mapa. | [Notas da versão](https://github.com/ykauttiz/ultimos-50-metros/releases/tag/v2026.11.21.2) |
 
 Para relatar um problema, informe o projeto, o navegador, os passos, o resultado esperado e o que aconteceu. Use dados fictícios em anexos públicos.
 
