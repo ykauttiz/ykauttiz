@@ -5,6 +5,8 @@
 
 Sou o Kauê, desenvolvedor brasileiro em formação. Faço ferramentas em **Python e JavaScript** para resolver problemas que conheço de perto. Duas perguntas deram origem aos projetos abaixo: *o repasse do delivery bateu com os pedidos?* e *como voltar ao mesmo verso até acertar o tempo?*
 
+**[Abrir meu portfólio](https://ykauttiz.github.io/contratempo/portfolio/)** · Escolha um projeto pela captura da tela e abra **O que testar** para experimentar o primeiro fluxo.
+
 ### Fecha a Conta
 
 No exemplo fictício, dois depósitos de **R$ 60,00 e R$ 39,80** fecham o lote L01. O pedido 0019 ficou **R$ 1,50 abaixo do previsto**. Abra o pedido para conferir de onde saiu a diferença, até a linha do CSV. O cálculo usa centavos inteiros e os extratos ficam no dispositivo.
@@ -29,6 +31,6 @@ Encontrou um caso que a ferramenta trata errado? Abra uma issue no projeto e inc
 <details>
 <summary>English</summary>
 
-I’m Kauê, a Brazilian developer learning by building tools in Python and JavaScript. **Fecha a Conta** reconciles delivery orders and payouts from local CSV files. **Contratempo** lets musicians loop a passage, edit timed lyrics and export subtitles. Both browser demos include an example you can try immediately. The source and automated checks are linked above.
+I’m Kauê, a Brazilian developer learning by building tools in Python and JavaScript. **Fecha a Conta** reconciles delivery orders and payouts from local CSV files. **Contratempo** lets musicians loop a passage, edit timed lyrics and export subtitles. **Porta Fechada** compares Discord channel permissions, and **Últimos 50 Metros** records bus stop accessibility inspections. [Explore all four interactive demos](https://ykauttiz.github.io/contratempo/portfolio/). The source and automated checks are linked above.
 
 </details>

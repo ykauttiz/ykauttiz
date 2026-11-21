@@ -4,9 +4,9 @@ Revisão de 21 de novembro de 2026. Os links de verificação apontam para a exe
 
 | Projeto | Experimente | Testes e capturas desta revisão |
 |---|---|---|
-| Contratempo | [Sala de ensaio](https://ykauttiz.github.io/contratempo/) | [Execução](https://github.com/ykauttiz/contratempo/actions/runs/44909455101) |
-| Fecha a Conta | [Conferência de repasses](https://ykauttiz.github.io/fecha-a-conta/) | [Execução](https://github.com/ykauttiz/fecha-a-conta/actions/runs/44910123321) |
-| Porta Fechada | [Simulador de canais de texto](https://ykauttiz.github.io/porta-fechada/) | [Execução](https://github.com/ykauttiz/porta-fechada/actions/runs/44910131825) |
+| Contratempo | [Sala de ensaio](https://ykauttiz.github.io/contratempo/) | [Execução](https://github.com/ykauttiz/contratempo/actions/runs/44937617422) |
+| Fecha a Conta | [Conferência de repasses](https://ykauttiz.github.io/fecha-a-conta/) | [Execução](https://github.com/ykauttiz/fecha-a-conta/actions/runs/44937614612) |
+| Porta Fechada | [Simulador de canais de texto](https://ykauttiz.github.io/porta-fechada/) | [Execução](https://github.com/ykauttiz/porta-fechada/actions/runs/44937612699) |
 | Últimos 50 Metros | [Caderno de campo](https://ykauttiz.github.io/ultimos-50-metros/) | [Execução](https://github.com/ykauttiz/ultimos-50-metros/actions/runs/44910145718) |
 
 ## Contratempo
@@ -44,6 +44,9 @@ A seleção também pode ser exportada em CSV. O aplicativo inclui manifesto, í
 Identificadores de pontos também são neutralizados no CSV quando começam com um prefixo que uma planilha pode interpretar como fórmula.
 
 ## Perfil e manutenção
+
+[Portfólio interativo](https://ykauttiz.github.io/contratempo/portfolio/). Nas revisões visuais, preserve a identidade de cada ferramenta, os exemplos reproduzíveis, a leitura em telas estreitas e a preferência de movimento reduzido. Compare o tema claro e o escuro com o mesmo conteúdo. Use capturas do produto para mostrar uma tarefa real.
+
 
 O perfil apresenta os quatro projetos, demonstrações, código e banner com variantes clara e escura. A manutenção semanal revisa falhas, testes, documentação, exemplos e demanda pública. Revisões futuras devem registrar a evidência para qualquer novo recurso, publicação ou integração. Os quatro projetos estão fixados no perfil. A edição v2026.11.21.1 está publicada em cada repositório. Feedback de usuários e desempenho em celulares físicos precisam de observações reais.
 
