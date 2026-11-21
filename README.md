@@ -19,7 +19,7 @@ Uma sala de ensaio para áudio e letras sincronizadas. Na faixa **Depois da chuv
 
 ### Outros projetos
 
-- **Porta Fechada** · Compare duas configurações de canais de texto do Discord e veja qual regra mudou o acesso de um cargo. [Simulador](https://ykauttiz.github.io/porta-fechada/) · [Código](https://github.com/ykauttiz/porta-fechada)
+- **Porta Fechada** · Compare o acesso a canais e threads do Discord. Veja como um convite, um cargo ou o bloqueio de uma thread muda quem pode responder. [Simulador](https://ykauttiz.github.io/porta-fechada/) · [Código](https://github.com/ykauttiz/porta-fechada)
 - **Últimos 50 Metros** · Registre as condições da calçada, da travessia e do embarque de um ponto de ônibus. Consulte o histórico na próxima vistoria. [Abrir a ferramenta](https://ykauttiz.github.io/ultimos-50-metros/) · [Código](https://github.com/ykauttiz/ultimos-50-metros)
 
 [Entregas, testes e próximos passos dos quatro projetos](ROADMAP.md)

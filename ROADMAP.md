@@ -1,13 +1,13 @@
 # Projetos publicados e próximos passos
 
-Revisão de 21 de novembro de 2026. Os links de verificação apontam para a execução correspondente à entrega. Os artefatos de cada execução incluem capturas com 375 e 1280 pixels de largura em Chromium e Firefox.
+Revisão de 21 de novembro de 2026. Os links de verificação apontam para a execução correspondente à entrega. Os artefatos de cada execução incluem capturas com 320, 375 e 1280 pixels de largura em Chromium e Firefox.
 
 | Projeto | Experimente | Testes e capturas desta revisão |
 |---|---|---|
-| Contratempo | [Sala de ensaio](https://ykauttiz.github.io/contratempo/) | [Execução](https://github.com/ykauttiz/contratempo/actions/runs/44908599689) |
-| Fecha a Conta | [Conferência de repasses](https://ykauttiz.github.io/fecha-a-conta/) | [Execução](https://github.com/ykauttiz/fecha-a-conta/actions/runs/44908592566) |
-| Porta Fechada | [Simulador de canais de texto](https://ykauttiz.github.io/porta-fechada/) | [Execução](https://github.com/ykauttiz/porta-fechada/actions/runs/44908588491) |
-| Últimos 50 Metros | [Caderno de campo](https://ykauttiz.github.io/ultimos-50-metros/) | [Execução](https://github.com/ykauttiz/ultimos-50-metros/actions/runs/44908595852) |
+| Contratempo | [Sala de ensaio](https://ykauttiz.github.io/contratempo/) | [Execução](https://github.com/ykauttiz/contratempo/actions/runs/44909223120) |
+| Fecha a Conta | [Conferência de repasses](https://ykauttiz.github.io/fecha-a-conta/) | [Execução](https://github.com/ykauttiz/fecha-a-conta/actions/runs/44909117294) |
+| Porta Fechada | [Simulador de canais de texto](https://ykauttiz.github.io/porta-fechada/) | [Execução](https://github.com/ykauttiz/porta-fechada/actions/runs/44909113823) |
+| Últimos 50 Metros | [Caderno de campo](https://ykauttiz.github.io/ultimos-50-metros/) | [Execução](https://github.com/ykauttiz/ultimos-50-metros/actions/runs/44909115695) |
 
 ## Contratempo
 
@@ -29,7 +29,7 @@ Para validar um importador nativo de iFood ou 99Food, ainda faltam extratos anon
 
 O motor compara duas configurações de canais de texto, testa leitura e envio para os membros e cargos declarados e identifica a etapa que alterou a decisão. A interface e a CLI trabalham com exemplos ou JSON local. O painel filtra os quatro resultados e os relatórios exportam a comparação completa. O CI registra a cobertura da suíte.
 
-A matriz por membro compara leitura e envio por canal e conjunto de cargos. O histórico local guarda comparações nomeadas para reabrir ou remover depois. Na tabela, cada etapa decisiva pode ser expandida para conferir o resultado intermediário de cada sobrescrita aplicável. O relatório JSON acompanha o mesmo percurso. O suporte específico a threads segue no roteiro. Uma integração de leitura com um servidor real depende de uma aplicação autorizada e de um servidor de teste. O simulador local já pode ser usado isoladamente.
+A matriz por membro compara leitura e envio por canal e conjunto de cargos. O histórico local guarda comparações nomeadas para reabrir ou remover depois. Na tabela, cada etapa decisiva pode ser expandida para conferir o resultado intermediário de cada sobrescrita aplicável. O relatório JSON acompanha o mesmo percurso. O formato 2 permite simular threads públicas e privadas, permissões do canal pai, convites, bloqueio e arquivamento. Uma integração de leitura com um servidor real depende de uma aplicação autorizada e de um servidor de teste. O simulador local já pode ser usado isoladamente.
 
 ## Últimos 50 Metros
 
@@ -39,15 +39,22 @@ A seleção também pode ser exportada em CSV. O aplicativo inclui manifesto, í
 
 ## Perfil e manutenção
 
-O perfil apresenta os quatro projetos, demonstrações, código e banner com variantes clara e escura. A manutenção semanal revisa falhas, testes, documentação, exemplos e demanda pública. Revisões futuras devem registrar a evidência para qualquer novo recurso, publicação ou integração. Fixações no perfil, prévias sociais, metadados dos repositórios e releases formais têm verificação própria. Feedback de usuários e desempenho em celulares físicos precisam de observações reais.
+O perfil apresenta os quatro projetos, demonstrações, código e banner com variantes clara e escura. A manutenção semanal revisa falhas, testes, documentação, exemplos e demanda pública. Revisões futuras devem registrar a evidência para qualquer novo recurso, publicação ou integração. Os quatro projetos estão fixados no perfil. A edição v2026.11.21.1 está publicada em cada repositório. Feedback de usuários e desempenho em celulares físicos precisam de observações reais.
 
 ## Como experimentar e avaliar a edição de novembro
 
 | Projeto | Experiência curta | Versão publicada |
 |---|---|---|
-| Contratempo | Marque um trecho da faixa de exemplo e ouça a mudança de velocidade após duas voltas. | [Notas da versão](https://github.com/ykauttiz/contratempo/releases/tag/v2026.11.21) |
-| Fecha a Conta | Isole o pedido 0019 da demonstração e confira a diferença no resumo impresso. | [Notas da versão](https://github.com/ykauttiz/fecha-a-conta/releases/tag/v2026.11.21) |
-| Porta Fechada | Compare os exemplos de canal, salve o resultado e reabra a comparação pelo nome. | [Notas da versão](https://github.com/ykauttiz/porta-fechada/releases/tag/v2026.11.21) |
-| Últimos 50 Metros | Cadastre dois pontos fictícios com coordenadas distintas e selecione cada vistoria no mapa. | [Notas da versão](https://github.com/ykauttiz/ultimos-50-metros/releases/tag/v2026.11.21) |
+| Contratempo | Marque um trecho da faixa de exemplo e ouça a mudança de velocidade após duas voltas. | [Notas da versão](https://github.com/ykauttiz/contratempo/releases/tag/v2026.11.21.1) |
+| Fecha a Conta | Isole o pedido 0019 da demonstração e confira a diferença no resumo impresso. | [Notas da versão](https://github.com/ykauttiz/fecha-a-conta/releases/tag/v2026.11.21.1) |
+| Porta Fechada | Compare os exemplos de canal, salve o resultado e reabra a comparação pelo nome. | [Notas da versão](https://github.com/ykauttiz/porta-fechada/releases/tag/v2026.11.21.1) |
+| Últimos 50 Metros | Cadastre dois pontos fictícios com coordenadas distintas e selecione cada vistoria no mapa. | [Notas da versão](https://github.com/ykauttiz/ultimos-50-metros/releases/tag/v2026.11.21.1) |
 
 Para relatar um problema, informe o projeto, o navegador, os passos, o resultado esperado e o que aconteceu. Use dados fictícios em anexos públicos.
+
+## Validação com usuários
+
+- [Ensaio por teclado e leitor de tela](https://github.com/ykauttiz/contratempo/issues/2)
+- [Layout de extrato e resultado esperado](https://github.com/ykauttiz/fecha-a-conta/issues/1)
+- [Permissões de threads em um servidor de teste](https://github.com/ykauttiz/porta-fechada/issues/1)
+- [GPS, uso offline e recuperação em celular](https://github.com/ykauttiz/ultimos-50-metros/issues/1)
