@@ -30,13 +30,15 @@ Uma sala de ensaio para áudio e letras sincronizadas. Na faixa **Depois da chuv
 - **Porta Fechada** · Compare o acesso a canais e threads do Discord. Veja como um convite, um cargo ou o bloqueio de uma thread muda quem pode responder. [Simulador](https://ykauttiz.github.io/porta-fechada/) · [Código](https://github.com/ykauttiz/porta-fechada)
 - **Últimos 50 Metros** · Registre as condições da calçada, da travessia e do embarque de um ponto de ônibus. Consulte o histórico na próxima vistoria. [Abrir a ferramenta](https://ykauttiz.github.io/ultimos-50-metros/) · [Código](https://github.com/ykauttiz/ultimos-50-metros)
 
-[Entregas, testes e próximos passos dos quatro projetos](ROADMAP.md)
+[Auditoria, testes e próximos passos das cinco ferramentas](ROADMAP.md)
 
-Encontrou um caso que a ferramenta trata errado? Abra uma issue no projeto e inclua o resultado esperado e um exemplo fictício que reproduza o problema.
+**Qualidade antes de novas funções.** Cada ferramenta mantém um fluxo de testes e casos fictícios reproduzíveis. A revisão do portfólio inclui segurança dos dados, compatibilidade móvel, acessibilidade e pendências de validação no mundo real. [Consulte a auditoria e os próximos passos](ROADMAP.md).
+
+Encontrou um caso que a ferramenta trata errado? Abra uma issue no projeto e inclua o resultado esperado e um exemplo fictício que reproduza o problema. Nunca publique extratos financeiros, capturas HAR originais, localização residencial ou IDs reais de servidores.
 
 <details>
 <summary>English</summary>
 
-I’m Kauê, a Brazilian developer learning by building tools in Python and JavaScript. **Fecha a Conta** reconciles delivery orders and payouts from local CSV files. **Contratempo** lets musicians loop a passage, edit timed lyrics and export subtitles. **Porta Fechada** compares Discord channel permissions, and **Últimos 50 Metros** records bus stop accessibility inspections. [Rastro Curto](https://ykauttiz.github.io/rastro-curto/) compares network recordings and exports only aggregate counts. [Explore the original four demos](https://ykauttiz.github.io/contratempo/portfolio/). The source and automated checks are linked above.
+I’m Kauê, a Brazilian developer learning by building tools in Python and JavaScript. **Fecha a Conta** reconciles delivery orders and payouts from local CSV files. **Contratempo** lets musicians loop a passage, edit timed lyrics and export subtitles. **Porta Fechada** compares Discord channel permissions, and **Últimos 50 Metros** records bus stop accessibility inspections. [Rastro Curto](https://ykauttiz.github.io/rastro-curto/) compares network recordings and exports only aggregate counts. [Explore the portfolio](https://ykauttiz.github.io/contratempo/portfolio/) and the [current roadmap](ROADMAP.md). The source and automated checks are linked above.
 
 </details>

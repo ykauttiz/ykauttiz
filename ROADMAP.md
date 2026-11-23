@@ -1,13 +1,14 @@
-# Projetos publicados e próximos passos
+# Projetos publicados, auditoria e próximos passos
 
-Revisão de 21 de novembro de 2026. Os links de verificação apontam para a execução correspondente à entrega. Os artefatos de cada execução incluem capturas com 320, 375 e 1280 pixels de largura em Chromium e Firefox.
+Atualização do portfólio: **23 de novembro de 2026**. Os links de CI abaixo apontam para o histórico de testes; cada execução deve ser conferida individualmente antes de afirmar que uma atualização foi aprovada. Testes automatizados não substituem validação com usuários e dados de campo consentidos.
 
-| Projeto | Experimente | Testes e capturas desta revisão |
+| Projeto | Experimente | Testes e código |
 |---|---|---|
-| Contratempo | [Sala de ensaio](https://ykauttiz.github.io/contratempo/) | [Execução](https://github.com/ykauttiz/contratempo/actions/runs/44937701148) |
-| Fecha a Conta | [Conferência de repasses](https://ykauttiz.github.io/fecha-a-conta/) | [Execução](https://github.com/ykauttiz/fecha-a-conta/actions/runs/44937699992) |
-| Porta Fechada | [Simulador de canais de texto](https://ykauttiz.github.io/porta-fechada/) | [Execução](https://github.com/ykauttiz/porta-fechada/actions/runs/44937704470) |
-| Últimos 50 Metros | [Caderno de campo](https://ykauttiz.github.io/ultimos-50-metros/) | [Execução](https://github.com/ykauttiz/ultimos-50-metros/actions/runs/44937932510) |
+| Contratempo | [Sala de ensaio](https://ykauttiz.github.io/contratempo/) | [CI](https://github.com/ykauttiz/contratempo/actions/workflows/contratempo-tests.yml) · [Repositório](https://github.com/ykauttiz/contratempo) |
+| Fecha a Conta | [Conferência de repasses](https://ykauttiz.github.io/fecha-a-conta/) | [CI](https://github.com/ykauttiz/fecha-a-conta/actions/workflows/conferencia.yml) · [Repositório](https://github.com/ykauttiz/fecha-a-conta) |
+| Porta Fechada | [Simulador de permissões](https://ykauttiz.github.io/porta-fechada/) | [CI](https://github.com/ykauttiz/porta-fechada/actions/workflows/verificar.yml) · [Repositório](https://github.com/ykauttiz/porta-fechada) |
+| Últimos 50 Metros | [Caderno de campo](https://ykauttiz.github.io/ultimos-50-metros/) | [CI](https://github.com/ykauttiz/ultimos-50-metros/actions/workflows/verificar.yml) · [Repositório](https://github.com/ykauttiz/ultimos-50-metros) |
+| Rastro Curto | [Boletim HAR](https://ykauttiz.github.io/rastro-curto/) | [CI](https://github.com/ykauttiz/rastro-curto/actions/workflows/test.yml) · [Repositório](https://github.com/ykauttiz/rastro-curto) |
 
 ## Contratempo
 
@@ -43,23 +44,38 @@ A seleção também pode ser exportada em CSV. O aplicativo inclui manifesto, í
 
 Identificadores de pontos também são neutralizados no CSV quando começam com um prefixo que uma planilha pode interpretar como fórmula.
 
+## Rastro Curto
+
+Ferramenta local para transformar arquivos HAR em **dois histogramas**: famílias HTTP e duração de cada requisição. É possível comparar os cenários A e B e baixar um boletim TXT com apenas contagens, sem exportar os detalhes individuais das requisições. O formato é deliberadamente limitado: ele não identifica a rota lenta, nem prova que uma mudança causou uma melhora. O arquivo HAR original pode conter segredos; nunca deve ser enviado ao GitHub ou a um chamado público.
+
+O núcleo `core.js` valida a estrutura, limita a 50 mil entradas e não inclui URLs, cabeçalhos ou corpos na saída. Os testes abordam os limiares das faixas, códigos desconhecidos, entradas inválidas e ausência de dados sensíveis no resultado. Falta validação externa de utilidade com equipes de suporte.
+
+[Issue ou sugestão para o Rastro Curto](https://github.com/ykauttiz/rastro-curto/issues) · [Release v0.1.0](https://github.com/ykauttiz/rastro-curto/releases/tag/v0.1.0)
+
 ## Perfil e manutenção
 
 [Portfólio interativo](https://ykauttiz.github.io/contratempo/portfolio/). Nas revisões visuais, preserve a identidade de cada ferramenta, os exemplos reproduzíveis, a leitura em telas estreitas e a preferência de movimento reduzido. Compare o tema claro e o escuro com o mesmo conteúdo. Use capturas do produto para mostrar uma tarefa real.
 
 
-O perfil apresenta os quatro projetos, demonstrações, código e banner com variantes clara e escura. A manutenção semanal revisa falhas, testes, documentação, exemplos e demanda pública. Revisões futuras devem registrar a evidência para qualquer novo recurso, publicação ou integração. Os quatro projetos estão fixados no perfil. A edição v2026.11.21.2 está publicada em cada repositório. Feedback de usuários e desempenho em celulares físicos precisam de observações reais.
+O perfil apresenta **cinco ferramentas públicas**, demonstrações, código e banner com variantes clara e escura. A manutenção revisa falhas, testes, documentação, exemplos e demanda real. Versões e datas diferem entre os repositórios; consulte a aba Releases de cada um, em vez de presumir uma versão comum. Feedback de usuários e desempenho em celulares físicos ainda precisam de observações reais.
 
-## Como experimentar e avaliar a edição de novembro
+## Critérios de conclusão antes de novas versões
 
-| Projeto | Experiência curta | Versão publicada |
+- **Integridade:** testes de regressão para importação, números, restauração e fluxo essencial.
+- **Segurança:** usar dados inteiramente fictícios nas issues, exemplos, capturas e relatórios.
+- **Acessibilidade:** validar teclado, contraste, foco e movimento reduzido com exemplos reais do próprio produto.
+- **Publicação:** confirmar a CI da branch `main`, o deploy e, quando houver, a release gerada.
+- **Validação externa:** diferenciar teste automatizado de execução com usuários, aparelho físico, serviços e permissões oficiais.
+
+### Próximas verificações por projeto
+
+| Projeto | Bloqueio atual | Critério de evidência |
 |---|---|---|
-| Contratempo | Marque um trecho da faixa de exemplo e ouça a mudança de velocidade após duas voltas. | [Notas da versão](https://github.com/ykauttiz/contratempo/releases/tag/v2026.11.21.2) |
-| Fecha a Conta | Isole o pedido 0019 da demonstração e confira a diferença no resumo impresso. | [Notas da versão](https://github.com/ykauttiz/fecha-a-conta/releases/tag/v2026.11.21.2) |
-| Porta Fechada | Compare os exemplos de canal, salve o resultado e reabra a comparação pelo nome. | [Notas da versão](https://github.com/ykauttiz/porta-fechada/releases/tag/v2026.11.21.2) |
-| Últimos 50 Metros | Cadastre dois pontos fictícios com coordenadas distintas e selecione cada vistoria no mapa. | [Notas da versão](https://github.com/ykauttiz/ultimos-50-metros/releases/tag/v2026.11.21.2) |
-
-Para relatar um problema, informe o projeto, o navegador, os passos, o resultado esperado e o que aconteceu. Use dados fictícios em anexos públicos.
+| Contratempo | Leitor de tela e ensaio prolongado | Exercício reproduzido por teclado e tecnologia assistiva |
+| Fecha a Conta | Layouts reais de iFood/99Food | CSV sintético fiel ao layout, totais esperados e teste |
+| Porta Fechada | Paridade de threads e canais reais | Servidor e contas de teste autorizados |
+| Últimos 50 Metros | GPS e armazenamento em campo | Aparelho real, internet desligada, backup restaurado |
+| Rastro Curto | Utilidade do boletim em suporte | Chamado fictício avaliado por usuário de suporte |
 
 ## Validação com usuários
 
