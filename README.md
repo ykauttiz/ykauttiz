@@ -5,11 +5,11 @@
 
 Sou o Kauê, desenvolvedor brasileiro em formação. Faço ferramentas em **Python e JavaScript** para resolver problemas que conheço de perto. Duas perguntas deram origem aos projetos abaixo: *o repasse do delivery bateu com os pedidos?* e *como voltar ao mesmo verso até acertar o tempo?*
 
-**[Abrir meu portfólio](https://ykauttiz.github.io/contratempo/portfolio/)** · Escolha um projeto pela captura da tela e abra **O que testar** para experimentar o primeiro fluxo.
+**[Abrir meu portfólio](https://ykauttiz.github.io/contratempo/portfolio/)** · A vitrine já reúne **cinco projetos**, com capturas das ferramentas e um preview estilizado do Rastro Curto. Abra **O que testar** para experimentar cada fluxo.
 
 ### Rastro Curto
 
-Uma página ficou lenta depois de uma mudança? Compare duas capturas da aba Rede e baixe um boletim para o suporte. No exemplo fictício, duas requisições demoravam pelo menos dois segundos. Na segunda gravação, nenhuma chegou a esse tempo.
+Uma página ficou lenta depois de uma mudança? Compare duas capturas da aba Rede por **contagens e percentuais** de erros HTTP e requisições lentas. No exemplo fictício, a proporção de requisições com 2 segundos ou mais cai de **33,3% para 0,0%**. O boletim exportado omite URLs, cookies e conteúdos das requisições.
 
 [Experimentar o antes e depois](https://ykauttiz.github.io/rastro-curto/) · [Ver o código](https://github.com/ykauttiz/rastro-curto)
 
@@ -39,6 +39,6 @@ Encontrou um caso que a ferramenta trata errado? Abra uma issue no projeto e inc
 <details>
 <summary>English</summary>
 
-I’m Kauê, a Brazilian developer learning by building tools in Python and JavaScript. **Fecha a Conta** reconciles delivery orders and payouts from local CSV files. **Contratempo** lets musicians loop a passage, edit timed lyrics and export subtitles. **Porta Fechada** compares Discord channel permissions, and **Últimos 50 Metros** records bus stop accessibility inspections. [Rastro Curto](https://ykauttiz.github.io/rastro-curto/) compares network recordings and exports only aggregate counts. [Explore the portfolio](https://ykauttiz.github.io/contratempo/portfolio/) and the [current roadmap](ROADMAP.md). The source and automated checks are linked above.
+I’m Kauê, a Brazilian developer learning by building tools in Python and JavaScript. **Fecha a Conta** reconciles delivery orders and payouts from local CSV files. **Contratempo** lets musicians loop a passage, edit timed lyrics and export subtitles. **Porta Fechada** compares Discord channel permissions, and **Últimos 50 Metros** records bus stop accessibility inspections. [Rastro Curto](https://ykauttiz.github.io/rastro-curto/) compares HAR network recordings and exports aggregate counts and rates without individual URLs or headers. [Explore the portfolio](https://ykauttiz.github.io/contratempo/portfolio/) and the [current roadmap](ROADMAP.md). The source and automated checks are linked above.
 
 </details>

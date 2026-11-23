@@ -46,15 +46,15 @@ Identificadores de pontos também são neutralizados no CSV quando começam com 
 
 ## Rastro Curto
 
-Ferramenta local para transformar arquivos HAR em **dois histogramas**: famílias HTTP e duração de cada requisição. É possível comparar os cenários A e B e baixar um boletim TXT com apenas contagens, sem exportar os detalhes individuais das requisições. O formato é deliberadamente limitado: ele não identifica a rota lenta, nem prova que uma mudança causou uma melhora. O arquivo HAR original pode conter segredos; nunca deve ser enviado ao GitHub ou a um chamado público.
+Ferramenta local para transformar arquivos HAR em **dois histogramas**: famílias HTTP e duração de cada requisição. É possível comparar os cenários A e B com **contagens, taxas de respostas 4xx/5xx e proporção de requisições com duração ≥2 segundos**. O boletim TXT contém somente contagens e percentuais derivados; nunca inclui URLs, cookies ou detalhes individuais das requisições. Os percentuais usam o total de requisições de cada captura como denominador e uma captura vazia não recebe a falsa taxa de 0%. O formato é deliberadamente limitado: ele não identifica a rota lenta, nem prova que uma mudança causou uma melhora. O arquivo HAR original pode conter segredos; nunca deve ser enviado ao GitHub ou a um chamado público.
 
 O núcleo `core.js` valida a estrutura, limita a 50 mil entradas e não inclui URLs, cabeçalhos ou corpos na saída. Os testes abordam os limiares das faixas, códigos desconhecidos, entradas inválidas e ausência de dados sensíveis no resultado. Falta validação externa de utilidade com equipes de suporte.
 
-[Issue ou sugestão para o Rastro Curto](https://github.com/ykauttiz/rastro-curto/issues) · [Release v0.1.0](https://github.com/ykauttiz/rastro-curto/releases/tag/v0.1.0)
+[Issue ou sugestão para o Rastro Curto](https://github.com/ykauttiz/rastro-curto/issues) · [Testes e entregas atuais](https://github.com/ykauttiz/rastro-curto/actions/workflows/test.yml)
 
 ## Perfil e manutenção
 
-[Portfólio interativo](https://ykauttiz.github.io/contratempo/portfolio/). Nas revisões visuais, preserve a identidade de cada ferramenta, os exemplos reproduzíveis, a leitura em telas estreitas e a preferência de movimento reduzido. Compare o tema claro e o escuro com o mesmo conteúdo. Use capturas do produto para mostrar uma tarefa real.
+[Portfólio interativo com cinco ferramentas](https://ykauttiz.github.io/contratempo/portfolio/). O cartão do Rastro Curto mostra uma ilustração CSS dos valores fictícios da demonstração, não uma captura do navegador. Nas revisões visuais, preserve a identidade de cada ferramenta, os exemplos reproduzíveis, a leitura em telas estreitas e a preferência de movimento reduzido. Compare o tema claro e o escuro com o mesmo conteúdo. Use capturas do produto para mostrar uma tarefa real.
 
 
 O perfil apresenta **cinco ferramentas públicas**, demonstrações, código e banner com variantes clara e escura. A manutenção revisa falhas, testes, documentação, exemplos e demanda real. Versões e datas diferem entre os repositórios; consulte a aba Releases de cada um, em vez de presumir uma versão comum. Feedback de usuários e desempenho em celulares físicos ainda precisam de observações reais.
